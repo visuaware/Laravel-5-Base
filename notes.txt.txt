@@ -1,0 +1,16 @@
+
+= download a package
+composer require packagename
+
+= check json
+cat composer.json
+
+= downloads/installs the dependencies
+composer install
+
+
+= if dynamic update enabled on packages, this will get latest versions
+composer update
+
+
+/vendor/ all packages installed w composer stored here
